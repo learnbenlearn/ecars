@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Range__c</fullName>
+    <fullName>Primary__c</fullName>
     <externalId>false</externalId>
-    <label>Range</label>
+    <label>Primary</label>
     <required>false</required>
-    <trackTrending>false</trackTrending>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Short_Range</fullName>
+                <fullName>No</fullName>
                 <default>false</default>
-                <label>Short Range</label>
+                <label>No</label>
             </value>
             <value>
-                <fullName>Long_Range</fullName>
+                <fullName>Yes</fullName>
                 <default>false</default>
-                <label>Long Range</label>
-            </value>
-            <value>
-                <fullName>Medium_Range</fullName>
-                <default>false</default>
-                <label>Medium Range</label>
+                <label>Yes</label>
             </value>
         </valueSetDefinition>
     </valueSet>
